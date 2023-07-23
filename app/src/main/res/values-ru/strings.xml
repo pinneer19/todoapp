@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="priority_low">Низкая</string>
+    <string name="priority_default">Обычная</string>
+    <string name="priority_immediate">Высокая</string>
+    <string name="save">Сохранить</string>
+    <string name="todo_question">Что надо сделать?</string>
+    <string name="priority">Важность</string>
+    <string name="todo_deadline">Сделать до</string>
+    <string name="delete">Удалить</string>
+    <string name="done">Выполнено - </string>
+    <string name="undo">Отменить</string>
+    <string name="deleted_item">был удален</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="priority_low">Low</string>
+    <string name="priority_immediate">Immediate</string>
+    <string name="priority_default">Default</string>
+    <string name="save">SAVE</string>
+    <string name="todo_question">What do you want to do?</string>
+    <string name="priority">Priority</string>
+    <string name="todo_deadline">Do until</string>
+    <string name="delete">Delete</string>
+    <string name="done">Done - </string>
+    <string name="undo">Undo</string>
+    <string name="deleted_item">was deleted</string>
+</resources>

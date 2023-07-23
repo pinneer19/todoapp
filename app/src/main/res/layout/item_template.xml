@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="12dp"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:enabled="true"
+
+        app:buttonTint="@color/separator" />
+
+    <TextView
+        android:id="@+id/todo_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginHorizontal="12dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/roboto_regular"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:lineHeight="20dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Купить что-то, где-то, зачем-то, но что-то, где-то, зачем-то, но зачем не очень понятно, но точно чтобы показать как обрезается"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/info_button"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@null"
+        android:src="@drawable/outline_info_24"
+        app:tint="@color/tertiary" />
+</LinearLayout>
